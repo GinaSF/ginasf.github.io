@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Send email using EmailJS
         // You'll need to replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs from EmailJS
-        emailjs.send('FSQkGVLIffes8Yzjp', 'template_5wp305k', templateParams)
+        emailjs.send('service_m6n3l4x', 'template_5wp305k', templateParams)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 submitButton.textContent = 'Message Sent!';
