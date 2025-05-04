@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize EmailJS with your public key
     // You'll need to sign up at https://www.emailjs.com/ and replace this with your actual public key
-    emailjs.init('FSQkGVLIffes8Yzjp');
+    emailjs.init('OxAL4rI9icKJSCoNR');
 
     const contactForm = document.getElementById('contact-form');
     const submitButton = contactForm.querySelector('button[type="submit"]');
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Send email using EmailJS
         // You'll need to replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs from EmailJS
-        emailjs.send('service_iua6yue', 'template_5wp305k', templateParams)
+        emailjs.send('service_sckr577', 'template_9qq7m5c', templateParams)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 submitButton.textContent = 'Message Sent!';
