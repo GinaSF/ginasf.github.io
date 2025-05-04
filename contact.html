@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Portfolio | Contact</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact-form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
@@ -82,7 +83,8 @@
                                 <textarea id="message" name="message" required></textarea>
                             </div>
                             
-                            <button type="submit" class="btn primary-btn">Send Message (Form not working)</button>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                            <div id="form-status" class="form-status"></div>
                         </form>
                     </div>
                 </div>
@@ -105,6 +107,8 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
